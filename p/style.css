@@ -1,56 +1,35 @@
 /* ::placeholder {
     color: black;
     opacity: 1; /* Firefox */
-  /* }
+/* }
   
   ::-ms-input-placeholder { /* Edge 12 -18 */
-    /* color: black;
-  } */ 
+/* color: black;
+  } */
 
-  /* ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    /* color:    #909;
-} */ 
+/* ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+/* color:    #909;
+} */
 
-body{
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
 }
-.b-1{
-  border: 1px solid rgba(0,47,52,.2) !important;
+.b-1 {
+  border: 1px solid rgba(0, 47, 52, 0.2) !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-text {
+  background: rgba(0, 47, 52, 0.03);
+}
+.hr-c {
+  width: 0.2rem;
+  margin: 0 auto;
+  background-color: rgba(0, 47, 52, 0.2);
+  height: 8.6rem;
+}
+.BROWSER-item::-webkit-scrollbar {
+  display: none;
+}
+.bikes::-webkit-scrollbar {
+  display: none;
+}
