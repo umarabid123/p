@@ -20,5 +20,29 @@ input[type="email"], textarea {
     /* background-color: rgba(0, 0, 0, 0.2); */
     background-color: transparent;
     
-  
+  }
+  .txt-card-5 button{
+    text-transform: uppercase;
+  }
+  .footer a{
+    line-height: 2.5rem;
+  }
+  .footer a:hover{
+    cursor: pointer;
+  }
+  .select {
+
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: rgba(15, 15, 15, 1);
+
+  }
+  .select select{
+    background-color: rgba(15, 15, 15, 1);
+
   }
